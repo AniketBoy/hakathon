@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create account</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="navbar">
+        <div class="item">
+            <div class="logo"> <img src="./logo.png" alt="Doctor">
+                <h4>SYNERGY HEALTHS</h4>
+            </div>
+            <ul>
+                <li> <a href="/html1/home1.html">HOME</a></li>
+                <li> <a href="/price.html/price.html">PLANS</a></li>
+                <li> <a href="/services/services.html">SERVICES</a></li>
+                <li> <a href="#">CONTACT US</a></li>
+                <li> <a href="/price.html/aboutus.html">ABOUT US</a></li>
+            </ul>
+        </div>
+    </section>
+    <div class="account">
+        <h1>Login</h1>
+        <div class="center">
+            <form action="/api/auth/login" method="post">
+                <div class="field">
+                    <input type="text" name="username" id="username" required>
+                    <span></span>
+                    <label for="username">Username</label>
+                </div>
+                <div class="field">
+                    <input type="password" name="password" id="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <div class="pass">
+                    Fogot Password?
+                </div>
+                <input type="submit" value="Login">
+                <div class="sign_up">
+                    Not a Member?<a href="./register_W.ejs">Signup</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

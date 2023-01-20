@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    font-family: 'Ubuntu', sans-serif;
+    color: #000;
+    font-size: 22px;
+    background-color: #e3f2fd;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    padding: 10px 13px;
+    margin: 3px 12px;
+    justify-content: space-evenly;
+}
+
+.item ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.item ul li {
+    padding: 13px 10px;
+    /* width: 124px; */
+    margin: 25px 4px;
+}
+
+.item ul li {
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+}
+
+.item ul li a {
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#navbar ul li a:hover {
+    font-size: 20px;
+    background-color: #edede9;
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+}
+
+.login {
+    display: relative;
+    padding: 13px 10px;
+    margin: 25px 4px;
+}
+
+.login a {
+    top: 42px;
+    right: 50px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+}
+
+.login a:hover {
+    letter-spacing: 0.35rem;
+    background: #1e9bff;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0 0 35px #1e9bff;
+    border-radius: 10px;
+}
+
+.logo img {
+    position: relative;
+    filter: invert(10%);
+    margin-left: 30px;
+    height: 70px;
+    width: 120px;
+    left: -70%;
+}
+
+.item h4 {
+    position: relative;
+    left: -70%;
+    top: -10px;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #958dd2;
+}
+
+.container h2 {
+    color: #000;
+    font-size: 32px;
+    padding: 50px 0;
+    text-align: center;
+    margin-left: -1%;
+}
+
+.price-row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-col {
+    background: #1f283b;
+    padding: 13px 23px;
+    margin: 3px 80px;
+    border-radius: 10px;
+    color: #000;
+    text-align: center;
+    transition: 0.5s;
+}
+.price-col:hover{
+    box-shadow: 2px 2px 4px #1e9bff;
+    scale: 1.1;
+}
+.price-col p {
+    font-size: 22px;
+}
+
+.price-col h3 {
+    font-size: 44px;
+    margin: 20px 0 40px;
+    font-weight: 500;
+}
+
+.price-col span {
+    font-size: 16px;
+}
+
+.price-col ul {
+    text-align: left;
+    margin: 20px 0;
+    color: #ddd;
+    list-style: none;
+}
+
+.price-col ul li {
+    margin: 15px;
+}
+
+.price-col ul li::before {
+    content: '\2022';
+    color: #ec4972;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.price-col button {
+    width: 100%;
+    padding: 13px 14px 2px;
+    background: transparent;
+    color: #fff;
+    font: 15px;
+    border: 1px solid #ec4972;
+    border-radius: 6px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.price-col button:hover {
+    background: #ec4972;
+
+}
+
+.last {
+    font-family: 'Inconsolata', monospace;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.log1 {
+    width: 300px;
+}
+
+.box img {
+    height: 60px;
+    width: 60px;
+    display: block;
+    margin-left: 20%;
+}
+
+.last li {
+    list-style: none;
+    line-height: 1.9;
+}
+
+.box a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.box li {
+    list-style: none;
+}
+
+.box {
+    padding: 13px 23px;
+    margin: 20px 15px;
+    width: 30%;
+}
+
+.box p {
+    text-align: left;
+    line-height: 1.5;
+}
+
+.box h4 {
+    margin: 3px 4px;
+    padding: 10px;
+}
+
+.box i {
+    color: #f44336;
+    margin: 19px 0;
+}
+
+.footer {
+    color: #fff;
+    background-color: #3d5a80;
+    display: flex;
+}
+
+.i i {
+    padding: 43px 9px;
+    margin: 10px 6px;
+}

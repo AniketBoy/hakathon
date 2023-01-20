@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#navbar {
+    font-family: 'Ubuntu', sans-serif;
+    color: #000;
+    font-size: 22px;
+    background-color: #e3f2fd;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    padding: 10px 13px;
+    margin: 3px 12px;
+    justify-content: space-evenly;
+}
+
+.item ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.item ul li {
+    padding: 13px 10px;
+    /* width: 124px; */
+    margin: 25px 4px;
+}
+
+.item ul li {
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+}
+
+.item ul li a {
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#navbar ul li a:hover {
+    font-size: 20px;
+    background-color: #edede9;
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+}
+
+.login {
+    display: relative;
+    padding: 13px 10px;
+    margin: 25px 4px;
+}
+
+.login a {
+    top:42px;
+    right:50px;
+    position: absolute;
+      text-decoration: none;
+    font-size: 20px;
+    color:black;
+    padding: 10px 30px;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: 0.5s;
+    
+}
+.login a:hover{
+    letter-spacing: 0.35rem;
+    background:#1e9bff; 
+    cursor: pointer;
+    color:#fff;
+    box-shadow: 0 0 35px #1e9bff;
+    border-radius: 10px;
+}
+
+.logo img {
+    position: relative;
+    filter: invert(10%);
+    margin-left: 30px;
+    height: 70px;
+    width: 120px;
+    left: -70%;
+}
+
+.item h4 {
+    position: relative;
+    left: -70%;
+    top: -10px;
+}
+
+/* nanvar ends here */
+#home {
+    min-height: 100vh;
+    width: 100%;
+    /* background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('healthbg1.jpg'); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    animation: change 25s infinite ease-in-out;
+}
+#home h2{
+    color:#fff;
+}
+@keyframes change {
+    0% {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('healthbg1.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    20% {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('healthbg2.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    40% {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('healthbg3.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    60% {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('healthbg4.jpeg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    80% {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('healthbg5.jpeg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    100% {
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('healthbg6.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+}
+.heading {
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 32px;
+    height: 500px;
+    color: rgb(255, 255, 255);
+    width: 90%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+
+.heading p {
+    font-size: 24px;
+    padding: 13px;
+    margin: 10px 0 40px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.links {
+    font-size: 20px;
+    color: rgb(0, 174, 239);
+    background-color: #0077b6;
+    border: 2px solid #00b4d8;
+    padding: 10px;
+    margin: 3px 4px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.links:hover {
+    background: transparent;
+    box-shadow: none;
+    background-color: transparent;
+    color: rgb(0, 174, 239);
+}
+/* home section ends here */
+#about{
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: centre;
+    position: relative;
+}
+.about-us{
+   min-height: 125px;
+    width:70%;
+    margin-top:4%;
+    margin-left:15%;
+    display: flex;
+    align-items: center;
+
+}
+.about-us img{
+
+    border-radius: 10px;
+    height: 600px;
+    width: 500px;
+}
+.about-us p{
+    line-height: 1.9;
+    font-weight:400;
+    font-size:20px;
+    color:#6d6875;
+    padding:10px;
+    margin:0 3px;
+}
+.about-us h1{
+    font-size: 40px;
+    padding:15px;
+    margin:10px 3px;
+    margin-bottom: 50px; 
+}
+.about-item{
+    padding:10px;
+    margin:0 4px;
+}
+.about-item img{
+    object-fit: contain;
+}
+.line{
+    margin-top:14px;
+    width: 70px;
+    height:4px;
+    background:#f44336;
+}
+.skill{
+    font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+.row{
+    margin: 20px 3px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.row i{
+    font-size: 40px;
+    color:#009688;
+    display: block;
+}
+.row h3{
+    color:#000;
+}
+.col{
+    line-height: 1.9;
+    width: 50%;
+    text-align: center;
+   padding:10px 34px;
+   margin: 20px 30px;
+    color:#00b4d8;
+}
+ h2,span{
+    display: inline-block;
+    margin: 15px,0;
+    font-size: 50px;
+    color:#000;
+}
+.counter-col{
+    background:#fff;
+    padding:20px 0;
+    border-radius:5px;
+    box-shadow:0 0 20px -4px #66676c;
+}
+.last{
+    position: absolute;
+    font-family: 'Inconsolata', monospace;
+    margin-top:9%;
+    display: flex;
+   flex-direction: row;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+}
+.log1{
+    width: 300px;
+}
+.box img{
+    height: 60px;
+    width: 60px;
+    display: block;
+    margin-left:20%;
+}
+.last li{
+    list-style: none;
+    line-height: 1.9;
+}
+.box a{
+    color: #fff;
+    text-decoration: none;
+}
+.box li{
+    list-style: none;
+}
+.box{
+    padding:13px 23px;
+    margin:20px 15px;
+    width:30%;
+}
+.box p{
+    text-align: left;
+    line-height: 1.5;
+}
+.box h4{
+    margin:3px 4px;
+    padding:10px;
+}
+.box i{
+    color:#f44336;
+    margin:19px 0;
+}
+.footer{
+    color:#fff;
+    background-color: #3d5a80;
+    display: flex;
+}
+.i i{
+    padding:43px 9px;
+    margin:10px 6px;
+}

@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    background-image: url(Doctors.webp);
+
+}
+.about-session
+{
+    background-size: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 100px 100px;
+
+}
+.inner-container{
+    width: 100%;
+    float: left;
+    background-color: #474040;
+    padding: 25px;
+}
+.inner-container h1{
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.text 
+{
+    font-size: 13px;
+    color: #c5bfbf;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.skills
+{
+    display:flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+    
+}
+@media  screen and (max-width: 1200px) 
+{
+  .inner-container{
+    padding: 80px;
+  }    
+}
+@media  screen and (max-width: 1000px) {
+    .about-session{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+
+    }
+}
+@media  screen and (max-width: 600px) {
+    .about-session{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home1</title>
+    <script src="https://kit.fontawesome.com/8bc722afb8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home1.css">
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="navbar">
+        <div class="item">
+            <div class="logo"> <img src="logo.png" alt="Doctor">
+                <h4>SYNERGY HEALTHS</h4>
+            </div>
+            <ul>
+                <li> <a href="/api/home">HOME</a></li>
+                <li> <a href="/api/price">PLANS</a></li>
+                <li> <a href="/services/services.html">SERVICES</a></li>
+                <li> <a href="#">CONTACT US</a></li>
+                <li> <a href="/price.html/aboutus.html">ABOUT US</a></li>
+            </ul>
+            <div class="login">
+                <a href="/api/auth/login">LOG IN</a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="home">
+        <div class="heading">
+            <h2>We Believe Everyone Should Have Easy Access To Great Health Care</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aliquid repellat<br>maiores pariatur,
+                id nemo commodi natus ullam magni impedit recusandae ad soluta </p>
+            <span class="links"><a href="api/auth/register">Register</a></span>
+            <span class="links"><a href="api/auth/login/doctor/">Register as a Doctor</a></span>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-us">
+            <div class="about-item">
+                <img src="doctor.avif" alt="about US">
+            </div>
+            <div class="about-item">
+                <h1>About Us <div class="line"></div>
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum error expedita maxime amet aliquam
+                    repellendus distinctio adipisci, quas, consectetur, nesciunt deserunt. Dignissimos mollitia
+                    repellendus consequatur, necessitatibus quaerat quasi maxime perferendis.</p>
+                <hr>
+            </div>
+        </div>
+    </section>
+    <section class="skill">
+        <div class="row">
+            <div class="col">
+                <div class="counter-col">
+                    <i class="fa-brands fa-react"></i>
+                    <h2 class="counter">20</h2>
+                    <h3>Years Of Experience</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter-col">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <h2 class="counter">700</h2><span>+</span>
+                    <h3>Happy Patients</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter-col">
+                    <i class="fa-solid fa-book"></i>
+                    <h2 class="counter">120</h2>
+                    <h3>Certificate</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter-col">
+                    <i class="fa-solid fa-user-doctor"></i>
+                    <h2 class="counter">50</h2>
+                    <h3>Doctors</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="last">
+        <div class="footer">
+            <div class="box"> <img src="logo.png" alt="Doctor">
+                <h4>SYNERGY HEALTHS</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing Ipsam fugiat cum sequi earum aliquam! Sapiente
+                    Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Amet, enim?
+                </p>
+                <i class="fa-solid fa-envelope"></i> info@gmail.com
+            </div>
+            <div class="box">
+                <li>
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">FAQ'S</a></li>
+                    </ul>
+                </li>
+            </div>
+            <div class="box">
+                <li>
+                    <h2>
+                        Follow us</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem distinctio eveniet officiis
+                        ducimus dolor saepe corporis molestiae numquam provident blanditiis.</p>
+                    <ul class="i">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </ul>
+                </li>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script>app.get("/api/home", entryRoute)</script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+    </script>
+
+</body>
+
+</html>
